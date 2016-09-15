@@ -1,3 +1,5 @@
+__author__ = "Bikash"
+
 import pymongo
 
 uri = "mongodb://0.0.0.0:27017"
