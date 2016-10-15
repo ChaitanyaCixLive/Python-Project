@@ -7,5 +7,3 @@ def get_ip_address(url):
     marker = result.find('has address') + 12
     return result[marker:].splitlines()[0]
     return result
-
-print(get_ip_address('thenewboston.com'))
