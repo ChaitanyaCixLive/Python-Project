@@ -14,9 +14,9 @@ number = int(input("Enter the number: ")) <br>
 
 
 <h2>import BeautifulSoup</h2>
-* getting specific tag inside a source code string <br>
+* getting specific tag inside a source code string: <br>
 
-	for link in soup.findall('a', {'class': 'item-name'}): <br>
+		for link in soup.findall('a', {'class': 'item-name'}): <br>
 	
 		href = link.get('href')  //here link is the full line of tag and href string seperates the href tag only<br>
 		title = link.string <br> // this is the plain text between the starting and ending tag
