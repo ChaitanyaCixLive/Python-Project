@@ -1,11 +1,11 @@
 records = [
-    ('foo', 4,5),
+    ('foo', 4, 5),
     ('goo', 'hello'),
-    ('foo',6,7)
+    ('foo', 6, 7)
 ]
 
 
-def do_foo(x,y):
+def do_foo(x, y):
     print('foo', x, y)
 
 

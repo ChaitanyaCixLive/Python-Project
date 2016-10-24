@@ -1,0 +1,29 @@
+# Multi line that print in one line
+print("Ths is a"
+      " string in new")
+
+# Multi line the print in different line
+print("""\
+Usage: thingy [OPTIONS]
+     -h                        Display this usage message
+     -H hostname               Hostname to connect to
+""")
+
+
+# String formatting
+print(3 * 'un' + 'ium')
+
+print("py" "thon")
+print("py", "thon")
+print("\n")
+
+
+# String indexing
+name = "Bikash"
+print(name)
+print(name[0])
+print(name[-6])     # Reverse indexing starts with 1 while indexing normally starts with 0
+
+print(name[:2])
+print(name[2:])
+print(name[:2] + name[2:])
