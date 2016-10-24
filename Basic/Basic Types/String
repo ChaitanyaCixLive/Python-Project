@@ -27,3 +27,8 @@ print(name[-6])     # Reverse indexing starts with 1 while indexing normally sta
 print(name[:2])
 print(name[2:])
 print(name[:2] + name[2:])
+
+
+# string assigning
+name = "Roy"  # how evee name[0] = 'k' gives an error
+print(name)
