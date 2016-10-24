@@ -1,0 +1,6 @@
+# fibpnaci numbers
+a, b = 0, 1
+
+while b<10:
+    print(b)
+    a, b = b, b+a
