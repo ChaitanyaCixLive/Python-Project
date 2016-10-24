@@ -1,3 +1,7 @@
+answer = lambda x: x*5
+print(answer(5))
+
+
 def increment(n):
     return lambda x: x + n
 
