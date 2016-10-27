@@ -1,0 +1,8 @@
+import os
+
+filename = 'input.txt'
+print(filename.endswith('.txt'))
+print(filename.startswith('input'))
+
+filenames = os.listdir('.')
+print(filenames)
