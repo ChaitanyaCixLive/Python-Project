@@ -56,3 +56,5 @@ f = np.sin(x)
 print(f)
 print()
 
+g = np.random.random((3,3))
+print(g)
