@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48e41941-188c-430b-8ec3-f7e4a535d0f5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/js/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/js/app/app.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/js/app/app.module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/js/app/blog-detail/blog-detail.component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/js/app/blog-detail/blog-detail.module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/js/app/blog-list/blog-list.component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/js/app/blog-list/blog-list.module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/js/app/core/post/post.module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/js/app/core/post/post.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/js/app/utils/confirm-click/confirm-click.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/js/app/utils/confirm-click/confirm-click.module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/js/app/utils/try-nav/try-nav.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/js/app/utils/try-nav/try-nav.module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/js/external/dirPagination.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/json/posts.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/templates/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/templates/blog-detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/templates/blog-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ang_src/src/templates/try-nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/db.sqlite3" afterPath="$PROJECT_DIR$/src/db.sqlite3" />
+    <list default="true" id="48e41941-188c-430b-8ec3-f7e4a535d0f5" name="Default" comment="Angualr js added">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../website/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../website/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,18 +16,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="post.module.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ang_src/src/js/app/core/post/post.module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -370,17 +336,24 @@
       <option name="project" value="LOCAL" />
       <updated>1486940826632</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Angualr js added">
+      <created>1486941650928</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1486941650928</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24925596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32405892" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -446,6 +419,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
