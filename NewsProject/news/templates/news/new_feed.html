@@ -45,22 +45,15 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <div class="container">
-        <h1>Django News</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-      </div>
+
     </div>
 
     <div class="container">
 
-        <a href="{% url 'feed_new' %}" class="btn btn-primary">New Feed</a>
-        <hr>
-
-        <ul>
-            {% for feed in feeds %}
-            <li><a href="{{ feed.url }}">{{ feed.title }}</a> </li>
-            {% endfor %}
-        </ul>
+        <form method="post">{% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-primary">Save</button>
+        </form>
 
       <hr>
 
