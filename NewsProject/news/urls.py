@@ -4,5 +4,5 @@ from . import views
 from news import views
 
 urlpatterns = [
-    url(r'^$', views.article_list, name='articles_list'),
+    url(r'^$', views.articles_list, name='articles_list'),
 ]

@@ -3,5 +3,5 @@ from django.shortcuts import render
 # Create your views here.
 
 
-def article_list(request):
-    render(request, 'news/article_list.html', {})
+def articles_list(request):
+    return render(request, 'news/articles_list.html', {})
