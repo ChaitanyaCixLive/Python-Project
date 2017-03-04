@@ -3,6 +3,7 @@ from django.contrib import admin
 
 from . import views
 
+app_name = 'polls'
 urlpatterns = [
     url(r'^$', views.index, name='index'),
     # ex: /polls/5/
