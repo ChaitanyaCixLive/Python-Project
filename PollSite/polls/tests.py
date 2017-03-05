@@ -8,5 +8,5 @@ from .models import Question
 class QuestionMethodTests(TestCase):
     def test_was_published_recently_with_future_question(self):
         time = timezone.now() + datetime.timedelta(days=30)
-        futureQuestion = Question(pub_date = time)
-        self.assertIs(futureQuestion.was_published_recently(), False)
+        future_question = Question(pub_date = time)
+        self.assertIs(future_question.was_published_recently(), False)
