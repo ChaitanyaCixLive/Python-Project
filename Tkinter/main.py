@@ -26,11 +26,22 @@ root = Tk()
 
 
 """ Fitting widgets """
-one = Label(root, text="One", bg="red", fg="white")
-one.pack()
-two = Label(root, text="One", bg="green", fg="black")
-two.pack(fill=X)
-three = Label(root, text="One", bg="blue", fg="white")
-three.pack(fill=Y, side=LEFT)
+# one = Label(root, text="One", bg="red", fg="white")
+# one.pack()
+# two = Label(root, text="One", bg="green", fg="black")
+# two.pack(fill=X)
+# three = Label(root, text="One", bg="blue", fg="white")
+# three.pack(fill=Y, side=LEFT)
+
+"""Grid view"""
+label1 = Label(root, text="Name")
+label2 = Label(root, text="Password")
+entry1 = Entry(root)
+entry2 = Entry(root)
+
+label1.grid(row=0)
+label2.grid(row=1)
+entry1.grid(row=0, column=1)
+entry2.grid(row=1, column=1)
 
 root.mainloop()
