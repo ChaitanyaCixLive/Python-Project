@@ -8,6 +8,10 @@ label.config(foreground='blue', background='yellow')
 label.config(font=('Courier', 18, 'bold'))
 
 logo = PhotoImage(file="img/python_logo.gif")
-label.config(image = logo)
+label.config(image=logo)
+
+label.config(compound='text')
+label.config(compound='center')
+label.config(compound='left')
 
 root.mainloop()
