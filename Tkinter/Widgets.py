@@ -14,4 +14,9 @@ label.config(compound='text')
 label.config(compound='center')
 label.config(compound='left')
 
+# the previous image has scope issue
+# so keep a reference of it to save it from garbage collected when goes out of scope
+label.img = logo
+label.config(image=label.img)
+
 root.mainloop()
