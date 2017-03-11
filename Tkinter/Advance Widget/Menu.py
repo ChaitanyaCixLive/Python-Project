@@ -37,5 +37,7 @@ edit.add_radiobutton(label='One', variable=choice, value=1)
 edit.add_radiobutton(label='Two', variable=choice, value=2)
 edit.add_radiobutton(label='Three', variable=choice, value=3)
 
+file.post(300, 400)
+
 
 root.mainloop()
