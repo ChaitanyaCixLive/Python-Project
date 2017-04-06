@@ -1,9 +1,9 @@
-from bottle import run, route
+from bottle import run, route, template
 
 
 @route('/')
 def index():
-    return '<h1>Hello world</h1>'
+    return template('index')
 
 
 @route('/login')
