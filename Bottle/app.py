@@ -13,6 +13,11 @@ def login():
 
 @route('/reg')
 def login():
-    return '<h1>Registration page</h1>'
+    return '<h1>Register page</h1>'
+
+
+@route('/article/<id>')
+def aritcle(id):
+    return '<h1> You are viewing article ' + id + '</h1>'
 
 run(host='localhost', port=8082, debug=True, reloader=True)
