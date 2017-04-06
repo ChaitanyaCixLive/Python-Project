@@ -1,5 +1,4 @@
-from bottle import run, route, template
-
+from bottle import run, route, get
 
 animals = [
     {'name': 'Elite', 'type': 'Elephant'},
@@ -12,12 +11,12 @@ def index():
     return 'Hi there'
 
 
-@route('/animal')
+@get('/animal')
 def getAll():
     return {'animal': animals}
 
 
-@route('/animal/<name>')
+@get('/animal/<name>')
 def getOne(name):
     the_animal = [animal for animal in animals if animal['name']== name]
     return {'animal': the_animal}
